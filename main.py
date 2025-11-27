@@ -139,4 +139,4 @@ with gr.Blocks() as demo:
 
 
 if __name__ == "__main__":
-    demo.queue().launch(css="footer {visibility: hidden}", share=False, server_name="0.0.0.0", server_port="8000")
+    demo.queue().launch(css="footer {visibility: hidden}", share=False, server_name="0.0.0.0", server_port=8000)
