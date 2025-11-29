@@ -27,6 +27,9 @@ Dataset source: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction/d
 2. start the demo with `python main.py`
 
 ## Improvements for real estate company.
-1. Provide property recommendation to users based on their preference such as preferred location, budget, size.
-2. Provide recommendation for selling price based on the features of a property, this would reduce the time taken to evaluate property market price.
-3. Improve prediction accuracy by training with more data from various reliable sources.
+1. Source active and accurate data to train the model.
+2. Schedule active learning on fixed intervals, eg weekly or monthly to provide latest market rates and trends of properties.
+3. Monitor for data drift and anomalies if the predictions is getting worse over time.
+4. Provide property recommendation to users based on their preference such as preferred location, budget, size.
+5. Provide recommendation for selling price based on the features of a property, this would reduce the time taken to evaluate property market price.
+6. Improve prediction accuracy by obtaining feedback from users.
